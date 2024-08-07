@@ -14,6 +14,7 @@ fun secondsToPrettyTime(seconds: Int): String {
             if (minutes > 0) time.add("$minutes min")
             if (sec > 0) time.add("$sec sec")
             return time.joinToString(" ")
+
         }
     }
     return ""
