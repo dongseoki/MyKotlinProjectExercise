@@ -5,7 +5,7 @@ fun main() {
 }
 
 fun threeSum(nums: IntArray): List<List<Int>> {
-
+ return emptyList()
 }
 
 fun combi(arr:List<Int>, visited:MutableList<Boolean>, start:Int, end:Int){
